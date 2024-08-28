@@ -40,10 +40,11 @@
         }
         iframe {
             width: 850px;
-            height: 650px; /* Height includes the hidden 50 pixels */
+            height: 650px; /* Keeps the full iframe height */
             border: none;
             position: relative;
-            top: -80px; /* Moves the iframe up to hide the top 50 pixels */
+            top: -100px; /* Moves the iframe up by 100px (80 + 20) */
+            margin-top: 20px; /* Moves the iframe down by 20px */
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
     </style>
